@@ -6,4 +6,3 @@ def main(): Unit = {
   city.loop()
 }
 
-

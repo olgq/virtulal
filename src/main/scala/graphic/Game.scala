@@ -11,6 +11,7 @@ class Game(x: Int, y: Int) {
       case Wall() => print("# ")
       case Food() => print("F ")
       case Body() => print("B ")
+      case ElixirWell() => print("E ")
     }
   }
 
@@ -22,8 +23,7 @@ class Game(x: Int, y: Int) {
       println()
     }
   }
-  
-  
+
 
   def updateState(): Unit = {
     Thread.sleep(500)

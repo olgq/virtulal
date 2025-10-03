@@ -6,5 +6,6 @@ case class State(
                   position:      Point,
                   direction: Direction,
                   target:        Option[Point] = None,
-                  lastPosition: Point
+                  lastPosition: Point,
+                  memory: Map[Point, CellType] = Map()
                 )
